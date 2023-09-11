@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 from mtcnn import MTCNN
 detector = MTCNN()
 
-video = cv2.VideoCapture("a.mp4")
+video = cv2.VideoCapture("c.mp4")
 
 height = int(video.get(cv2.CAP_PROP_FRAME_HEIGHT))
 width = int(video.get(cv2.CAP_PROP_FRAME_WIDTH))
